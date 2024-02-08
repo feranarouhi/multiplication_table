@@ -1,0 +1,13 @@
+
+.tableContainer,
+td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+div.wrap {
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+}

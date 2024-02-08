@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication Table</title>
+    <script src="table.js" defer></script>
+    <script src="table.js" defer></script>
+</head>
+<body>
+    Rows: <input id="rows" type="number" min="1" value="10"><br>
+    Columns: <input id="cols" type="number" min="1" value="10"><br>
+    <button  onclick="drawTable()">Draw Table</button>
+    <div id="tableContainer">  Multipication Table </div>
+
+    <script>
+        window.onload = drawTable;
+    </script>
+</body>
+</html>
